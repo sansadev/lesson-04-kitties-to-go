@@ -1,3 +1,69 @@
 * {
-  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+
+}
+header {
+  background-color: #5DBCD2;
+  height: 300px;
+  width: 100%;
+  color: white;
+
+}
+.kitties-seattle {
+  font-size: 25px;
+  padding-top: 10px;
+
+}
+
+.nav-top {
+  background-color: #e6e6e6;
+  padding: 20px;
+  color: black;
+}
+.nav-top a {
+  color: black;
+  text-decoration: none;
+
+}
+.nav-top ul li {
+  display: inline;
+  color: black;
+  padding: 20px 22px;
+
+}
+
+.cat-1 {
+  padding-top: 40px;
+  width: 50%;
+}
+.kitties-to-go-story {
+  width: 50%;
+}
+.cats-in-the-news {
+  width: 25%;
+
+  position: absolute;
+  right: 150px;
+  top: 400px;
+}
+footer {
+  background-color: #4d4d4d;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+
+}
+.logo {
+  margin-top: 50px;
+}
+.footer-paragraph {
+  width: 50%;
+  color: white;
+
+  
 }
