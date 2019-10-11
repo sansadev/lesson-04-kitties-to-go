@@ -5,18 +5,30 @@
 
 body {
   background-color: white;
-
+  font-family: sans-serif;
+  word-spacing: 2px;
+}
+h1 {
+  font-size: 2.5rem;
 }
 header {
-  background-color: #5DBCD2;
+  background-color: #008fb3;
   height: 300px;
   width: 100%;
   color: white;
   float: left;
   padding-left: 200px;
+
+}
+h1 {
+  margin-bottom: 8px;
+}
+.header-text {
+  margin-top: 100px;
+  width: 25%;
 }
 .kitties-seattle {
-  font-size: 1.55rem;
+  font-size: 1.2rem;
 
 
 }
@@ -27,6 +39,7 @@ header {
   padding-left: 200px;
   padding-bottom: 50px;
   color: black;
+  width: 100%;
 
 }
 .nav-top ul {
@@ -50,10 +63,8 @@ header {
 
 }
 .font-bold-blue {
-    color: #5DBCD2;
-}
-a {
-  font-size: 15px;
+  color: #5DBCD2;
+  font-size: 0.9rem;
 }
 
 .cat-1 {
@@ -64,6 +75,7 @@ a {
 .the-first-para {
   padding-top: 40px;
   color: gray;
+
 }
 .please-stop {
   box-sizing: border-box;
@@ -81,6 +93,7 @@ a {
 .the-second-para {
   margin-top: 10px;
   color: gray;
+  font-family: Times New Roman;
 }
 .the-third-para {
   margin-top: 40px;
@@ -92,7 +105,26 @@ a {
   position: absolute;
   right: 150px;
   top: 400px;
+  margin-top: 40px;
+
 }
+
+
+
+
+.chew-ipad {
+  color: gray;
+
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
 footer {
   background-color: #4d4d4d;
   height: 400px;
@@ -103,9 +135,62 @@ footer {
 .logo {
   margin-top: 50px;
 }
-.footer-paragraph {
-  width: 50%;
+
+.nav-bottom ul {
+  margin-top: 30px;
+  margin-left: -40px;
+}
+
+.nav-bottom a {
   color: white;
+  text-decoration: none;
+
+}
+.nav-bottom ul li {
+  display: inline;
+  color: white;
+  padding: 15px;
+  font-size: .9rem;
+}
+
+.footer-paragraph {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+}
 
 
+
+/*  Styling for second page -book-a-cat page */
+/*
+.article-1 {
+padding-top: 40px;
+padding-bottom: 40px;
+width: 75%;
+margin-left: 200px;
+}
+*/
+
+.book-a-cat {
+  margin-top: 100px;
+
+}
+
+.healthy-cat {
+  color: #595959;
+  padding: 20px;
+  width: 70%;
+  word-spacing: 5px;
+  font-size: 0.9rem;
+  margin-left: 300px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.cat-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ff8566;
 }
